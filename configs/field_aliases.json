@@ -1,0 +1,47 @@
+{
+  "date_operation": [
+    "Дата операции"
+  ],
+  "date_payment": [
+    "Дата платежа"
+  ],
+  "card_number": [
+    "Номер карты"
+  ],
+  "status": [
+    "Статус"
+  ],
+  "amount_operation": [
+    "Сумма операции"
+  ],
+  "currency_operation": [
+    "Валюта операции"
+  ],
+  "amount_payment": [
+    "Сумма платежа"
+  ],
+  "currency_payment": [
+    "Валюта платежа"
+  ],
+  "cashback": [
+    "Кэшбэк"
+  ],
+  "category": [
+    "Категория"
+  ],
+  "code_category": [
+    "MCC"
+  ],
+  "descript": [
+    "Описание"
+  ],
+  "bonus": [
+    "Бонусы (включая кэшбэк)"
+  ],
+  "amount_invest": [
+    "Округление на инвесткопилку"
+  ],
+  "amount_operation_round": [
+    "Сумма операции с округлением"
+  ]
+}

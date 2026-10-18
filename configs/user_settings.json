@@ -1,0 +1,5 @@
+{
+  "user_currency_quote": "RUB",
+  "user_currencies": ["USD", "EUR", "CNY", "TRY"],
+  "user_stocks": ["AAPL", "AMZN", "GOOGL", "MSFT", "TSLA"]
+}
