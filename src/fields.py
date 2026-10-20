@@ -101,3 +101,9 @@ def load_user_settings(
     user_currency_quote = data_json["user_currency_quote"]
 
     return user_currencies, user_stocks, user_currency_quote
+
+
+def load_fields(file_path: str | Path) -> Any:
+    """Загрузить справочник путей к полям."""
+    data = get_fields_from_json(file_path)
+    return data
