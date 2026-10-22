@@ -1,12 +1,11 @@
-from src.views import get_events_response
+from src.processing_views import get_transactions
+from src.services import get_transactions_search_person, get_transactions_total_person
 
-# , get_main_response)
+PERSON = "Дмитрий Шершнёв"
+transactions = get_transactions()
 
-# 2021-12-25  16:42:04
-# result = get_main_response("2021-12-25  16:42:04")
-# print(result)
-
-# 2021-12-31 16:44:00
-result = get_events_response("2021-12-31 16:44:00", "M")
-
+result = get_transactions_search_person(transactions, PERSON)
 print(result)
+
+total = get_transactions_total_person(transactions)
+print(total)
